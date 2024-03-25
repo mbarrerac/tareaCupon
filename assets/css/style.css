@@ -1,0 +1,65 @@
+ /* roboto-light */
+ body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+} 
+nav{
+    background-color: #28A745;
+}
+
+nav div a img{
+    width: 8em;
+}
+
+
+
+@media (max-width: 576px){
+    #contenedorTarjetas{
+        width: 288px;
+    }
+}
+
+@media (min-width: 577px){
+    #contenedorTarjetas{
+        width: 960px;
+    }
+}
+
+
+footer img{
+    width: 2.5em;
+    display: block;
+}
+
+article{
+    background-color:  #17a2b8;
+    color: #fff;
+}
+
+article h2{
+    display: inline-block;
+}
+#colorGray{
+    color:#707070;
+}
+#colorGreen{
+    color:#28A745;
+}
+#colorBlack{
+    color:#212529;
+}
+
+#idGreenBackground {
+    background-color: #28A745;
+}
+
+#idBlackBackground{
+    background-color:#212529;
+}
+
+ #idGrayBackground{
+    background-color:#707070;
+    
+}
